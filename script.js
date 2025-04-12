@@ -41,7 +41,7 @@ const card = (image, name, surname, email, id, verified) => {
       <span class="userName">${name} ${surname}</span>
       <span class="userEmail">${email}</span>
       <span class="userId">${id}</span>
-      <span class="userVerified" style="color: ${verified ? "green" : red};">${
+      <span class="userVerified" style="color: ${verified ? 'green' : 'red'};">${
     verified ? "Email verificado" : "email não verificado"
   }</span>
       <div class="userClose" onclick="removeCard()">✕</div>
